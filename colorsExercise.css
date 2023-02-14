@@ -1,41 +1,45 @@
 /* Stylings for Colors Exercise. Background colors ar rainbow colors.  */
+
+/* Color commands */
 h1{
     color:darkgreen;
     background-color: red;
 }
-
+/* Hexadecimal */
 h2{
     color:#121212;
     background-color: #ffa500;
 }
-
+/* Hexadecimal shorthand */
 h3{
     color:#22f;
     background-color: #ff0;
 }
-
+/* Hexadecimal with transparency */
 h4{
     color:#10021c11;
-    background-color:#00800033 ;
+    background-color:#00800055 ;
 }
-
+/* Hexadecimal shorthand with transparency */
 h5{
     color:#ff03;
     background-color: #00f3;
 }
-
+/* RGB */
 h6{
     color:rgb(255, 255,255);
     background-color: rgb(75,0,130);
 }
+/* RGB with transparency */
 p{
     color:rgb(255, 253, 251, .3);
     background-color:rgba(128, 0, 255, .3);
 }
-#firstitem{
-    background-color: hotpink;
+
+#firstItem{
+    color: hotpink;
 }
-#thirditem{
+#thirdItem{
     background-color: peachpuff;
 }
 /* Create class "odd" to specify which items get borders. */
